@@ -786,7 +786,7 @@
   },
   {
     "ShortName": "ballista.bolt.hammerhead",
-    "NameRussian": "Болт-молот",
+    "NameRussian": "Ударный болт",
     "NameEnglish": "Hammerhead Bolt",
     "ItemId": -19318653,
     "ItemCategory": "Ammunition",
@@ -1339,7 +1339,7 @@
   },
   {
     "ShortName": "dart.incapacitate",
-    "NameRussian": "Оглушающий дротик",
+    "NameRussian": "Обездвиживающий дротик",
     "NameEnglish": "Incapacitate Dart",
     "ItemId": -963819285,
     "ItemCategory": "Ammunition",
@@ -1359,7 +1359,7 @@
   },
   {
     "ShortName": "dart.radiation",
-    "NameRussian": "Радиационный дротик",
+    "NameRussian": "Радиоактивный дротик",
     "NameEnglish": "Radiation Dart",
     "ItemId": -594596146,
     "ItemCategory": "Ammunition",
@@ -1379,7 +1379,7 @@
   },
   {
     "ShortName": "dart.scatter",
-    "NameRussian": "Дротик с дробью",
+    "NameRussian": "Рассеивающий дротик",
     "NameEnglish": "Scatter Dart",
     "ItemId": 2036395619,
     "ItemCategory": "Ammunition",
@@ -1524,7 +1524,7 @@
   },
   {
     "ShortName": "ammo.rifle",
-    "NameRussian": "Патроны 5.56-мм",
+    "NameRussian": "Патрон 5.56 мм",
     "NameEnglish": "5.56 Rifle Ammo",
     "ItemId": -1211166256,
     "ItemCategory": "Ammunition",
@@ -1563,7 +1563,7 @@
   },
   {
     "ShortName": "ammo.rifle.incendiary",
-    "NameRussian": "Патрон 5.56 мм (зажигательный)",
+    "NameRussian": "Зажигательный Патрон 5.56 мм",
     "NameEnglish": "Incendiary 5.56 Rifle Ammo",
     "ItemId": 605467368,
     "ItemCategory": "Ammunition",
@@ -1672,7 +1672,7 @@
   },
   {
     "ShortName": "ammo.rocket.smoke",
-    "NameRussian": "Ракета (Дымовая) В РАЗРАБОТКЕ!",
+    "NameRussian": "Дымовая ракета (В разработке!!!!)",
     "NameEnglish": "Smoke Rocket WIP!!!!",
     "ItemId": -17123659,
     "ItemCategory": "Ammunition",
@@ -1690,7 +1690,7 @@
   },
   {
     "ShortName": "ammo.shotgun",
-    "NameRussian": "Дробь 12-го калибра",
+    "NameRussian": "Картечь 12-го калибра",
     "NameEnglish": "12 Gauge Buckshot",
     "ItemId": -1685290200,
     "ItemCategory": "Ammunition",
@@ -1708,7 +1708,7 @@
   },
   {
     "ShortName": "ammo.shotgun.fire",
-    "NameRussian": "Зажигательный Снаряд 12-го калибра",
+    "NameRussian": "Зажигательная картечь 12-го калибра",
     "NameEnglish": "12 Gauge Incendiary Shell",
     "ItemId": -1036635990,
     "ItemCategory": "Ammunition",
@@ -1777,6 +1777,22 @@
       "UnityEngine.Behaviour",
       "ItemBlueprint",
       "ItemModProjectile"
+    ]
+  },
+  {
+    "ShortName": "apartment.master_key",
+    "NameRussian": "Apartment Key",
+    "NameEnglish": "Apartment Key",
+    "ItemId": 1664052604,
+    "ItemCategory": "Misc",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour"
     ]
   },
   {
@@ -1981,7 +1997,7 @@
   },
   {
     "ShortName": "floor.triangle.ladder.hatch.toptier",
-    "NameRussian": "Треугольный бронированный люк",
+    "NameRussian": "Треугольный бронированный люк с лестницей",
     "NameEnglish": "Armored Triangle Ladder Hatch",
     "ItemId": -478923685,
     "ItemCategory": "Construction",
@@ -2684,7 +2700,7 @@
   },
   {
     "ShortName": "bdu.pants",
-    "NameRussian": "Армейские брюки",
+    "NameRussian": "Армейские штаны",
     "NameEnglish": "BDU pants",
     "ItemId": 1468749025,
     "ItemCategory": "Attire",
@@ -6241,6 +6257,66 @@
     ]
   },
   {
+    "ShortName": "charity.plushy.03",
+    "NameRussian": "Ronald McDonald House UK 2026 Plushie",
+    "NameEnglish": "Ronald McDonald House UK 2026 Plushie",
+    "ItemId": 2130820934,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "charity.plushy.04",
+    "NameRussian": "Cancer Research UK 2026 Plushie",
+    "NameEnglish": "Cancer Research UK 2026 Plushie",
+    "ItemId": 2130820927,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "charity.plushie.05",
+    "NameRussian": "Humane World Charity 2026 Plushie",
+    "NameEnglish": "Humane World Charity 2026 Plushie",
+    "ItemId": 374496151,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "chickencoop",
     "NameRussian": "Курятник",
     "NameEnglish": "Chicken Coop",
@@ -7177,7 +7253,7 @@
   },
   {
     "ShortName": "abyss.barrel.horizontal",
-    "NameRussian": "Горизонтальная бочка \"Бездны\"",
+    "NameRussian": "Горизонтальная бочка для хранения «Бездна»",
     "NameEnglish": "Abyss Horizontal Storage Tank",
     "ItemId": -880494890,
     "ItemCategory": "Items",
@@ -7197,7 +7273,7 @@
   },
   {
     "ShortName": "abyss.barrel.vertical",
-    "NameRussian": "Вертикальная бочка \"Бездны\"",
+    "NameRussian": "Вертикальная бочка для хранения «Бездна»",
     "NameEnglish": "Abyss Vertical Storage Tank",
     "ItemId": -919882824,
     "ItemCategory": "Items",
@@ -7897,7 +7973,7 @@
   },
   {
     "ShortName": "ammo.mortar.basic",
-    "NameRussian": "Миномётная мина",
+    "NameRussian": "Миномётный снаряд",
     "NameEnglish": "Mortar Shell",
     "ItemId": 963150711,
     "ItemCategory": "Ammunition",
@@ -7915,7 +7991,7 @@
   },
   {
     "ShortName": "ammo.mortar.fragment",
-    "NameRussian": "Миномётная мина (осколочная)",
+    "NameRussian": "Осколочный миномётный снаряд",
     "NameEnglish": "Fragmentation Mortar Shell",
     "ItemId": -486432631,
     "ItemCategory": "Ammunition",
@@ -10372,7 +10448,7 @@
   },
   {
     "ShortName": "single.shallow.wall.shelves",
-    "NameRussian": "Bamboo Wall Shelves",
+    "NameRussian": "Бамбуковые настенные полки",
     "NameEnglish": "Bamboo Wall Shelves",
     "ItemId": -193519904,
     "ItemCategory": "Items",
@@ -10675,7 +10751,7 @@
   },
   {
     "ShortName": "workbench.upgrade.accelerated",
-    "NameRussian": "Конвейерная лента для верстака",
+    "NameRussian": "Улучшение верстака на скорость",
     "NameEnglish": "Accelerated Workbench Upgrade",
     "ItemId": 798382300,
     "ItemCategory": "Component",
@@ -10695,7 +10771,7 @@
   },
   {
     "ShortName": "workbench.upgrade.comfort",
-    "NameRussian": "Набор для комфортной работы за верстаком",
+    "NameRussian": "Улучшение верстака на комфорт",
     "NameEnglish": "Comfort Workbench Upgrade",
     "ItemId": -770390391,
     "ItemCategory": "Component",
@@ -10715,7 +10791,7 @@
   },
   {
     "ShortName": "workbench.upgrade.defensive",
-    "NameRussian": "Оборонительное улучшение верстака",
+    "NameRussian": "Улучшение верстака на защиту",
     "NameEnglish": "Defensive Workbench Upgrade",
     "ItemId": -1953279770,
     "ItemCategory": "Component",
@@ -10735,7 +10811,7 @@
   },
   {
     "ShortName": "workbench.upgrade.efficiency",
-    "NameRussian": "Набор улучшения эффективности верстака",
+    "NameRussian": "Улучшение верстака на эффективность",
     "NameEnglish": "Efficiency Workbench Upgrade",
     "ItemId": 1215602244,
     "ItemCategory": "Component",
@@ -10755,7 +10831,7 @@
   },
   {
     "ShortName": "workbench.upgrade.prototype",
-    "NameRussian": "Набор прототипа для верстака",
+    "NameRussian": "Улучшение верстака на прототип",
     "NameEnglish": "Prototype Workbench Upgrade",
     "ItemId": -180862419,
     "ItemCategory": "Component",
@@ -10775,7 +10851,7 @@
   },
   {
     "ShortName": "workbench.upgrade.range",
-    "NameRussian": "Улучшение радиуса для верстака",
+    "NameRussian": "Улучшение верстака на радиус",
     "NameEnglish": "Range Workbench Upgrade",
     "ItemId": 1470387662,
     "ItemCategory": "Component",
@@ -10795,7 +10871,7 @@
   },
   {
     "ShortName": "workbench.upgrade.recyclebin",
-    "NameRussian": "Набор переработки для верстака",
+    "NameRussian": "Улучшение верстака на утилизацию",
     "NameEnglish": "Recycle Bin Workbench Upgrade",
     "ItemId": -286541059,
     "ItemCategory": "Component",
@@ -10815,7 +10891,7 @@
   },
   {
     "ShortName": "workbench.upgrade.reinforced",
-    "NameRussian": "Набор для укрепления верстака",
+    "NameRussian": "Улучшение верстака на укрепление",
     "NameEnglish": "Reinforced Workbench Upgrade",
     "ItemId": 112268546,
     "ItemCategory": "Component",
@@ -10835,7 +10911,7 @@
   },
   {
     "ShortName": "workbench.upgrade.salvage",
-    "NameRussian": "Набор самоделок для верстака",
+    "NameRussian": "Улучшение верстака на выгоду",
     "NameEnglish": "Salvage Workbench Upgrade",
     "ItemId": -160105346,
     "ItemCategory": "Component",
@@ -10855,7 +10931,7 @@
   },
   {
     "ShortName": "workbench.upgrade.surplus",
-    "NameRussian": "Набор лишних деталей для верстака",
+    "NameRussian": "Улучшение верстака на излишки",
     "NameEnglish": "Surplus Workbench Upgrade",
     "ItemId": -1536343135,
     "ItemCategory": "Component",
@@ -16877,7 +16953,7 @@
   },
   {
     "ShortName": "tool.instant_camera",
-    "NameRussian": "Полароид",
+    "NameRussian": "Фотоаппарат мгновенной съёмки",
     "NameEnglish": "Instant Camera",
     "ItemId": -2001260025,
     "ItemCategory": "Tool",
@@ -19320,7 +19396,7 @@
   },
   {
     "ShortName": "advancedblueprintfragment",
-    "NameRussian": "Продвинутый Фрагмент Чертежа",
+    "NameRussian": "Фрагмент продвинутого чертежа",
     "NameEnglish": "Advanced Blueprint Fragment",
     "ItemId": -1896395719,
     "ItemCategory": "Component",
@@ -19336,7 +19412,7 @@
   },
   {
     "ShortName": "basicblueprintfragment",
-    "NameRussian": "Базовый фрагмент чертежа",
+    "NameRussian": "Фрагмент базового чертежа",
     "NameEnglish": "Basic Blueprint Fragment",
     "ItemId": -143481979,
     "ItemCategory": "Component",
@@ -19354,7 +19430,7 @@
   },
   {
     "ShortName": "bone.fragments",
-    "NameRussian": "Обломки костей",
+    "NameRussian": "Фрагменты костей",
     "NameEnglish": "Bone Fragments",
     "ItemId": 1719978075,
     "ItemCategory": "Resources",
@@ -19459,7 +19535,7 @@
   },
   {
     "ShortName": "can.beans.empty",
-    "NameRussian": "Пустая банка из-под фасоли",
+    "NameRussian": "Пустая банка из-под бобов",
     "NameEnglish": "Empty Can Of Beans",
     "ItemId": 1655979682,
     "ItemCategory": "Resources",
@@ -19619,7 +19695,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19714,7 +19791,7 @@
   },
   {
     "ShortName": "plantfiber",
-    "NameRussian": "Растительные Волокна",
+    "NameRussian": "Растительное волокно",
     "NameEnglish": "Plant Fiber",
     "ItemId": -804769727,
     "ItemCategory": "Resources",
@@ -19796,7 +19873,9 @@
       "System.Object",
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour"
+      "UnityEngine.Behaviour",
+      "ItemModApartmentTax",
+      "ItemMod"
     ]
   },
   {
@@ -19850,7 +19929,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -20609,7 +20689,7 @@
   },
   {
     "ShortName": "antiradpills",
-    "NameRussian": "Противорадиационные таблетки",
+    "NameRussian": "Антирадиационные таблетки",
     "NameEnglish": "Anti-Radiation Pills",
     "ItemId": -1432674913,
     "ItemCategory": "Medical",
@@ -20668,7 +20748,7 @@
   },
   {
     "ShortName": "tool.camera",
-    "NameRussian": "Фотоаппарат",
+    "NameRussian": "Камера",
     "NameEnglish": "Camera",
     "ItemId": -1316706473,
     "ItemCategory": "Tool",
@@ -20706,7 +20786,7 @@
   },
   {
     "ShortName": "rf.detonator",
-    "NameRussian": "Дистанционный пульт",
+    "NameRussian": "Радиопередатчик",
     "NameEnglish": "RF Transmitter",
     "ItemId": 596469572,
     "ItemCategory": "Tool",
@@ -21218,7 +21298,7 @@
   },
   {
     "ShortName": "spraycan",
-    "NameRussian": "Баллончик",
+    "NameRussian": "Баллончик с краской",
     "NameEnglish": "Spray Can",
     "ItemId": -596876839,
     "ItemCategory": "Tool",
@@ -21404,7 +21484,7 @@
   },
   {
     "ShortName": "vehicle.1mod.cockpit",
-    "NameRussian": "Модуль кабины транспорта",
+    "NameRussian": "Автомобильный модуль кабины",
     "NameEnglish": "Cockpit Vehicle Module",
     "ItemId": -1501451746,
     "ItemCategory": "Component",
@@ -21423,7 +21503,7 @@
   },
   {
     "ShortName": "vehicle.1mod.cockpit.armored",
-    "NameRussian": "Бронированный модуль",
+    "NameRussian": "Бронированный автомобильный модуль кабины",
     "NameEnglish": "Armored Cockpit Vehicle Module",
     "ItemId": 1874610722,
     "ItemCategory": "Component",
@@ -21442,7 +21522,7 @@
   },
   {
     "ShortName": "vehicle.1mod.cockpit.with.engine",
-    "NameRussian": "Кабина с двигателем",
+    "NameRussian": "Автомобильный модуль кабины с двигателем",
     "NameEnglish": "Cockpit With Engine Vehicle Module",
     "ItemId": 170758448,
     "ItemCategory": "Component",
@@ -21461,7 +21541,7 @@
   },
   {
     "ShortName": "vehicle.1mod.engine",
-    "NameRussian": "Модуль двигателя транспорта",
+    "NameRussian": "Автомобильный модуль двигателя",
     "NameEnglish": "Engine Vehicle Module",
     "ItemId": 1559779253,
     "ItemCategory": "Component",
@@ -21480,7 +21560,7 @@
   },
   {
     "ShortName": "vehicle.1mod.flatbed",
-    "NameRussian": "Модуль платформа автомобиля",
+    "NameRussian": "Автомобильный модуль-платформа",
     "NameEnglish": "Flatbed Vehicle Module",
     "ItemId": -1880231361,
     "ItemCategory": "Component",
@@ -21499,7 +21579,7 @@
   },
   {
     "ShortName": "vehicle.1mod.passengers.armored",
-    "NameRussian": "Бронированный пассажирский модуль",
+    "NameRussian": "Бронированный пассажирский автомобильный модуль",
     "NameEnglish": "Armored Passenger Vehicle Module",
     "ItemId": -1615281216,
     "ItemCategory": "Component",
@@ -21537,7 +21617,7 @@
   },
   {
     "ShortName": "vehicle.1mod.storage",
-    "NameRussian": "Багажный модуль",
+    "NameRussian": "Автомобильный модуль хранения",
     "NameEnglish": "Storage Vehicle Module",
     "ItemId": 268565518,
     "ItemCategory": "Component",
@@ -21556,7 +21636,7 @@
   },
   {
     "ShortName": "vehicle.1mod.taxi",
-    "NameRussian": "Модуль такси",
+    "NameRussian": "Автомобильный модуль такси",
     "NameEnglish": "Taxi Vehicle Module",
     "ItemId": -626174997,
     "ItemCategory": "Component",
@@ -21594,7 +21674,7 @@
   },
   {
     "ShortName": "vehicle.2mod.flatbed",
-    "NameRussian": "Модуль для Большого Грузовика",
+    "NameRussian": "Большой автомобильный модуль-платформа",
     "NameEnglish": "Large Flatbed Vehicle Module",
     "ItemId": -1693832478,
     "ItemCategory": "Component",
@@ -21613,7 +21693,7 @@
   },
   {
     "ShortName": "vehicle.2mod.fuel.tank",
-    "NameRussian": "Топливный бак",
+    "NameRussian": "Автомобильный модуль-цистерна",
     "NameEnglish": "Fuel Tank Vehicle Module",
     "ItemId": 1186655046,
     "ItemCategory": "Component",
@@ -21632,7 +21712,7 @@
   },
   {
     "ShortName": "vehicle.2mod.passengers",
-    "NameRussian": "Пассажирский модуль",
+    "NameRussian": "Пассажирский автомобильный модуль",
     "NameEnglish": "Passenger Vehicle Module",
     "ItemId": 895374329,
     "ItemCategory": "Component",
@@ -22404,7 +22484,7 @@
   },
   {
     "ShortName": "rifle.ak.diver",
-    "NameRussian": "Автомат \"Бездна\"",
+    "NameRussian": "Штурмовая винтовка «Бездна»",
     "NameEnglish": "Abyss Assault Rifle",
     "ItemId": -139037392,
     "ItemCategory": "Weapon",
@@ -23139,7 +23219,7 @@
   },
   {
     "ShortName": "torch.torch.skull",
-    "NameRussian": "Факел оленя-сектанта",
+    "NameRussian": "Факел культиста из черепа оленя",
     "NameEnglish": "Cultist Deer Torch",
     "ItemId": -1175656359,
     "ItemCategory": "Tool",
@@ -24430,7 +24510,7 @@
   },
   {
     "ShortName": "bucket.water",
-    "NameRussian": "Ведро воды",
+    "NameRussian": "Ведро для воды",
     "NameEnglish": "Water Bucket",
     "ItemId": 1424075905,
     "ItemCategory": "Tool",
