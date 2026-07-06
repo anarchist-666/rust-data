@@ -19359,7 +19359,9 @@
       "System.Object",
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour"
+      "UnityEngine.Behaviour",
+      "ItemModApartmentTax",
+      "ItemMod"
     ]
   },
   {
@@ -19478,7 +19480,9 @@
       "System.Object",
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour"
+      "UnityEngine.Behaviour",
+      "ItemModApartmentTax",
+      "ItemMod"
     ]
   },
   {
@@ -19496,7 +19500,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19514,7 +19519,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModCookable",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19530,7 +19536,9 @@
       "System.Object",
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour"
+      "UnityEngine.Behaviour",
+      "ItemModApartmentTax",
+      "ItemMod"
     ]
   },
   {
@@ -19677,7 +19685,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModCookable",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19714,7 +19723,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19751,7 +19761,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19769,7 +19780,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModCookable",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19893,7 +19905,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModXPWhenUsed",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -19911,7 +19924,8 @@
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
       "ItemModCookable",
-      "ItemMod"
+      "ItemMod",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -20004,7 +20018,8 @@
       "UnityEngine.Behaviour",
       "ItemModBurnable",
       "ItemMod",
-      "ItemModXPWhenUsed"
+      "ItemModXPWhenUsed",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -20959,7 +20974,8 @@
       "UnityEngine.Behaviour",
       "ItemModEntity",
       "ItemMod",
-      "ItemModKeycard"
+      "ItemModKeycard",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -20978,7 +20994,8 @@
       "UnityEngine.Behaviour",
       "ItemModEntity",
       "ItemMod",
-      "ItemModKeycard"
+      "ItemModKeycard",
+      "ItemModApartmentTax"
     ]
   },
   {
@@ -20997,7 +21014,8 @@
       "UnityEngine.Behaviour",
       "ItemModEntity",
       "ItemMod",
-      "ItemModKeycard"
+      "ItemModKeycard",
+      "ItemModApartmentTax"
     ]
   },
   {
