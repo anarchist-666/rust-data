@@ -590,7 +590,7 @@
   {
     "ShortName": "aiming.module.mlrs",
     "NameRussian": "Модуль наведения РСЗО",
-    "NameEnglish": "MLRS Aiming Module",
+    "NameEnglish": "Aiming Module",
     "ItemId": 343045591,
     "ItemCategory": "Component",
     "Components": [
@@ -641,8 +641,8 @@
     ]
   },
   {
-    "ShortName": "2module car",
-    "NameRussian": "2-х модульное авто",
+    "ShortName": "2module.car",
+    "NameRussian": "2 Module Car",
     "NameEnglish": "2 Module Car",
     "ItemId": -866121090,
     "ItemCategory": "Misc",
@@ -659,8 +659,8 @@
     ]
   },
   {
-    "ShortName": "3module car",
-    "NameRussian": "3-х модульное авто",
+    "ShortName": "3module.car",
+    "NameRussian": "3 Module Car",
     "NameEnglish": "3 Module Car",
     "ItemId": -831725027,
     "ItemCategory": "Misc",
@@ -677,8 +677,8 @@
     ]
   },
   {
-    "ShortName": "4module car",
-    "NameRussian": "4-х модульное авто",
+    "ShortName": "4module.car",
+    "NameRussian": "4 Module Car",
     "NameEnglish": "4 Module Car",
     "ItemId": -935322684,
     "ItemCategory": "Misc",
@@ -695,8 +695,8 @@
     ]
   },
   {
-    "ShortName": "2module car chassis",
-    "NameRussian": "2-х модульное авто: Каркас",
+    "ShortName": "2module.car.chassis",
+    "NameRussian": "2 Module Car Chassis",
     "NameEnglish": "2 Module Car Chassis",
     "ItemId": -226151558,
     "ItemCategory": "Misc",
@@ -713,8 +713,8 @@
     ]
   },
   {
-    "ShortName": "3module car chassis",
-    "NameRussian": "3-х модульное авто: Каркас",
+    "ShortName": "3module.car.chassis",
+    "NameRussian": "3 Module Car Chassis",
     "NameEnglish": "3 Module Car Chassis",
     "ItemId": 1482871705,
     "ItemCategory": "Misc",
@@ -731,8 +731,8 @@
     ]
   },
   {
-    "ShortName": "4module car chassis",
-    "NameRussian": "4-х модульное авто: Каркас",
+    "ShortName": "4module.car.chassis",
+    "NameRussian": "4 Module Car Chassis",
     "NameEnglish": "4 Module Car Chassis",
     "ItemId": 385099196,
     "ItemCategory": "Misc",
@@ -1084,7 +1084,7 @@
   },
   {
     "ShortName": "snowmobiletomaha",
-    "NameRussian": "Снегоход Томаха",
+    "NameRussian": "Снегоход Tomaha",
     "NameEnglish": "Tomaha Snowmobile",
     "ItemId": 1768112091,
     "ItemCategory": "Misc",
@@ -1582,7 +1582,7 @@
   },
   {
     "ShortName": "ammo.rifle.hv",
-    "NameRussian": "Патрон 5.56-мм (скоростной)",
+    "NameRussian": "Патрон 5.56-мм(скоростной)",
     "NameEnglish": "HV 5.56 Rifle Ammo",
     "ItemId": 1712070256,
     "ItemCategory": "Ammunition",
@@ -1777,22 +1777,6 @@
       "UnityEngine.Behaviour",
       "ItemBlueprint",
       "ItemModProjectile"
-    ]
-  },
-  {
-    "ShortName": "apartment.master_key",
-    "NameRussian": "Apartment Key",
-    "NameEnglish": "Apartment Key",
-    "ItemId": 1664052604,
-    "ItemCategory": "Misc",
-    "Components": [
-      "UnityEngine.Transform",
-      "UnityEngine.Component",
-      "UnityEngine.Object",
-      "System.Object",
-      "ItemDefinition",
-      "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour"
     ]
   },
   {
@@ -2097,7 +2081,7 @@
   },
   {
     "ShortName": "gates.external.high.legacy",
-    "NameRussian": "Высокие внешние ворота \"Legacy\"",
+    "NameRussian": "High External Legacy Gate",
     "NameEnglish": "High External Legacy Gate",
     "ItemId": -1442339204,
     "ItemCategory": "Construction",
@@ -2217,7 +2201,7 @@
   },
   {
     "ShortName": "wall.external.high.legacy",
-    "NameRussian": "Высокие внешние деревянные ворота \"Legacy\"",
+    "NameRussian": "High External Legacy Wall",
     "NameEnglish": "High External Legacy Wall",
     "ItemId": -1993883724,
     "ItemCategory": "Construction",
@@ -3028,7 +3012,7 @@
   },
   {
     "ShortName": "roadsign.gloves",
-    "NameRussian": "Перчатки из Дорожных Знаков",
+    "NameRussian": "Road Sign Gloves",
     "NameEnglish": "Road Sign Gloves",
     "ItemId": -699558439,
     "ItemCategory": "Attire",
@@ -4088,7 +4072,7 @@
   },
   {
     "ShortName": "attire.hide.poncho",
-    "NameRussian": "Пончо",
+    "NameRussian": "Пончо из шкуры",
     "NameEnglish": "Hide Poncho",
     "ItemId": 980333378,
     "ItemCategory": "Attire",
@@ -6157,6 +6141,46 @@
     ]
   },
   {
+    "ShortName": "bar.stool.metal",
+    "NameRussian": "Metal Bar Stool",
+    "NameEnglish": "Metal Bar Stool",
+    "ItemId": -1639742441,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "bar.stool.wood",
+    "NameRussian": "Wooden Bar Stool",
+    "NameEnglish": "Wooden Bar Stool",
+    "ItemId": -1444366079,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "beanbagseatfabric",
     "NameRussian": "Fabric Beanbag Seat",
     "NameEnglish": "Fabric Beanbag Seat",
@@ -6297,26 +6321,6 @@
     ]
   },
   {
-    "ShortName": "charity.plushie.05",
-    "NameRussian": "Humane World Charity 2026 Plushie",
-    "NameEnglish": "Humane World Charity 2026 Plushie",
-    "ItemId": 374496151,
-    "ItemCategory": "Items",
-    "Components": [
-      "UnityEngine.Transform",
-      "UnityEngine.Component",
-      "UnityEngine.Object",
-      "System.Object",
-      "ItemDefinition",
-      "UnityEngine.MonoBehaviour",
-      "UnityEngine.Behaviour",
-      "ItemModDeployable",
-      "ItemModEntity",
-      "ItemMod",
-      "ItemBlueprint"
-    ]
-  },
-  {
     "ShortName": "chickencoop",
     "NameRussian": "Курятник",
     "NameEnglish": "Chicken Coop",
@@ -6415,6 +6419,26 @@
       "ItemBlueprint",
       "ItemModEntity",
       "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "dartboard",
+    "NameRussian": "Dart Board",
+    "NameEnglish": "Dart Board",
+    "ItemId": -872679147,
+    "ItemCategory": "Fun",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModDeployable",
+      "ItemBlueprint"
     ]
   },
   {
@@ -7191,6 +7215,26 @@
     ]
   },
   {
+    "ShortName": "jukebox",
+    "NameRussian": "Jukebox",
+    "NameEnglish": "Jukebox",
+    "ItemId": -1018085504,
+    "ItemCategory": "Fun",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "trap.landmine",
     "NameRussian": "Самодельная мина",
     "NameEnglish": "Homemade Landmine",
@@ -7253,7 +7297,7 @@
   },
   {
     "ShortName": "abyss.barrel.horizontal",
-    "NameRussian": "Горизонтальная бочка для хранения «Бездна»",
+    "NameRussian": "Горизонтальный резервуар из Бездны",
     "NameEnglish": "Abyss Horizontal Storage Tank",
     "ItemId": -880494890,
     "ItemCategory": "Items",
@@ -7273,7 +7317,7 @@
   },
   {
     "ShortName": "abyss.barrel.vertical",
-    "NameRussian": "Вертикальная бочка для хранения «Бездна»",
+    "NameRussian": "Вертикальный резервуар из Бездны",
     "NameEnglish": "Abyss Vertical Storage Tank",
     "ItemId": -919882824,
     "ItemCategory": "Items",
@@ -7713,7 +7757,7 @@
   },
   {
     "ShortName": "krieg.storage.horizontal",
-    "NameRussian": "Ящики для хранения Krieg",
+    "NameRussian": "Ящики Корпуса Крига",
     "NameEnglish": "Krieg Storage Crates",
     "ItemId": 652793345,
     "ItemCategory": "Items",
@@ -7733,7 +7777,7 @@
   },
   {
     "ShortName": "krieg.storage.vertical",
-    "NameRussian": "Бочка для хранения Грэка",
+    "NameRussian": "Бочки Корпуса Крига",
     "NameEnglish": "Krieg Storage Barrel",
     "ItemId": 1305765685,
     "ItemCategory": "Items",
@@ -7893,7 +7937,7 @@
   },
   {
     "ShortName": "mannequin",
-    "NameRussian": "Манекен",
+    "NameRussian": "Clothing Mannequin",
     "NameEnglish": "Clothing Mannequin",
     "ItemId": -1035206446,
     "ItemCategory": "Items",
@@ -7916,6 +7960,26 @@
     "NameRussian": "Мини-холодильник",
     "NameEnglish": "Mini Fridge",
     "ItemId": 1174484438,
+    "ItemCategory": "Electrical",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "gamesroom.minifridge",
+    "NameRussian": "Bar Games Minifridge",
+    "NameEnglish": "Bar Games Minifridge",
+    "ItemId": 352442426,
     "ItemCategory": "Electrical",
     "Components": [
       "UnityEngine.Transform",
@@ -8030,7 +8094,7 @@
   },
   {
     "ShortName": "neonsigntr",
-    "NameRussian": "Неоновая вывеска Twitch Rivals",
+    "NameRussian": "Twitch Rivals Neon Sign",
     "NameEnglish": "Twitch Rivals Neon Sign",
     "ItemId": 381595627,
     "ItemCategory": "Electrical",
@@ -9389,6 +9453,26 @@
     ]
   },
   {
+    "ShortName": "pooltable",
+    "NameRussian": "Pool Table",
+    "NameEnglish": "Pool Table",
+    "ItemId": -1748166144,
+    "ItemCategory": "Fun",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "ptz.cctv.camera",
     "NameRussian": "Управляемая камера видеонаблюдения",
     "NameEnglish": "PTZ CCTV Camera",
@@ -9552,6 +9636,28 @@
     "NameRussian": "Ледяная скульптура",
     "NameEnglish": "Ice Sculpture",
     "ItemId": 504109620,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModSculpture",
+      "ItemModAssociatedEntity`1[AssociatedSculptureStorage]"
+    ]
+  },
+  {
+    "ShortName": "sculpture.rock",
+    "NameRussian": "Stone Sculpture",
+    "NameEnglish": "Stone Sculpture",
+    "ItemId": 1852905808,
     "ItemCategory": "Items",
     "Components": [
       "UnityEngine.Transform",
@@ -10064,6 +10170,26 @@
     ]
   },
   {
+    "ShortName": "gamesroom.shotgun.trap",
+    "NameRussian": "Bar Games Shotgun Trap",
+    "NameEnglish": "Bar Games Shotgun Trap",
+    "ItemId": 399522257,
+    "ItemCategory": "Traps",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "sleepingbag",
     "NameRussian": "Спальный мешок",
     "NameEnglish": "Sleeping Bag",
@@ -10165,7 +10291,7 @@
   },
   {
     "ShortName": "spikes.trap",
-    "NameRussian": "Ловушка с шипами",
+    "NameRussian": "Spike Trap",
     "NameEnglish": "Small Spike Trap",
     "ItemId": -1850297170,
     "ItemCategory": "Traps",
@@ -10185,7 +10311,7 @@
   },
   {
     "ShortName": "spinner.wheel",
-    "NameRussian": "Вращающиеся Колесо",
+    "NameRussian": "Spinning Wheel",
     "NameEnglish": "Spinning Wheel",
     "ItemId": -1100422738,
     "ItemCategory": "Items",
@@ -10886,7 +11012,8 @@
       "ItemBlueprint",
       "ItemModWorkbenchRecycleBin",
       "ItemModWorkbenchUpgrade",
-      "ItemMod"
+      "ItemMod",
+      "ItemModContainer"
     ]
   },
   {
@@ -13034,7 +13161,7 @@
   },
   {
     "ShortName": "lock.code.a.pilot",
-    "NameRussian": "Кодовый Замок Пилота",
+    "NameRussian": "Flight Control Codelock",
     "NameEnglish": "Flight Control Codelock",
     "ItemId": 1586884551,
     "ItemCategory": "Construction",
@@ -14148,7 +14275,7 @@
   },
   {
     "ShortName": "hat.snakemask",
-    "NameRussian": "Змеиная маска",
+    "NameRussian": "Snake Mask",
     "NameEnglish": "Snake mask",
     "ItemId": -1314079879,
     "ItemCategory": "Attire",
@@ -18398,7 +18525,7 @@
   },
   {
     "ShortName": "mrspice.can",
-    "NameRussian": "Мистер Спайс бутылка",
+    "NameRussian": "Mr Spice Can",
     "NameEnglish": "Mr Spice Can",
     "ItemId": -648077743,
     "ItemCategory": "Food",
@@ -18426,6 +18553,23 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour"
+    ]
+  },
+  {
+    "ShortName": "fuse.highgrade",
+    "NameRussian": "Heavy Fuse",
+    "NameEnglish": "Heavy Fuse",
+    "ItemId": -945548410,
+    "ItemCategory": "Component",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemBlueprint"
     ]
   },
   {
@@ -19520,7 +19664,9 @@
       "UnityEngine.Behaviour",
       "ItemModCookable",
       "ItemMod",
-      "ItemModApartmentTax"
+      "ItemModApartmentTax",
+      "ItemModConsume",
+      "ItemModConsumable"
     ]
   },
   {
@@ -19953,6 +20099,23 @@
     "NameEnglish": "Targeting Computer",
     "ItemId": 1523195708,
     "ItemCategory": "Resources",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "thruster.module",
+    "NameRussian": "Thruster Module",
+    "NameEnglish": "Thruster Module",
+    "ItemId": 1754952075,
+    "ItemCategory": "Component",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -21140,6 +21303,24 @@
     ]
   },
   {
+    "ShortName": "apartment.master_key",
+    "NameRussian": "Apartment Key",
+    "NameEnglish": "Apartment Key",
+    "ItemId": 1664052604,
+    "ItemCategory": "Misc",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "syringe.medical",
     "NameRussian": "Медицинский шприц",
     "NameEnglish": "Medical Syringe",
@@ -22128,8 +22309,8 @@
   },
   {
     "ShortName": "wallpaper.flooring",
-    "NameRussian": "Wallpaper Flooring",
-    "NameEnglish": "Wallpaper Flooring",
+    "NameRussian": "Flooring",
+    "NameEnglish": "Flooring",
     "ItemId": -551431036,
     "ItemCategory": "Items",
     "Components": [
@@ -22164,8 +22345,8 @@
   },
   {
     "ShortName": "wallpaper.wall",
-    "NameRussian": "Wallpaper Wall",
-    "NameEnglish": "Wallpaper Wall",
+    "NameRussian": "Wallpaper",
+    "NameEnglish": "Wallpaper",
     "ItemId": 553967074,
     "ItemCategory": "Tool",
     "Components": [
@@ -22564,7 +22745,7 @@
   },
   {
     "ShortName": "rifle.ak.med",
-    "NameRussian": "Средневековый АR",
+    "NameRussian": "Medieval AR",
     "NameEnglish": "Medieval AR",
     "ItemId": 472505338,
     "ItemCategory": "Weapon",
@@ -24173,7 +24354,7 @@
   },
   {
     "ShortName": "pistol.semiauto.a.m15",
-    "NameRussian": "Полуавтоматический пистолет M15",
+    "NameRussian": "M15 Semi-Automatic Pistol",
     "NameEnglish": "M15 Semi-Automatic Pistol",
     "ItemId": 1673224590,
     "ItemCategory": "Weapon",
@@ -24193,7 +24374,7 @@
   },
   {
     "ShortName": "rifle.semiauto",
-    "NameRussian": "Полуавтоматическая Винтовка",
+    "NameRussian": "Полуавтоматическая винтовка",
     "NameEnglish": "Semi-Automatic Rifle",
     "ItemId": -904863145,
     "ItemCategory": "Weapon",
