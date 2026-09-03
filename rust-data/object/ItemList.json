@@ -3668,7 +3668,8 @@
       "UnityEngine.Behaviour",
       "ItemModWearable",
       "ItemMod",
-      "ItemBlueprint"
+      "ItemBlueprint",
+      "ItemFootstepSounds"
     ]
   },
   {
@@ -3947,7 +3948,8 @@
       "UnityEngine.Behaviour",
       "ItemModWearable",
       "ItemMod",
-      "ItemBlueprint"
+      "ItemBlueprint",
+      "ItemFootstepSounds"
     ]
   },
   {
@@ -4397,8 +4399,8 @@
   },
   {
     "ShortName": "hazmatsuit.kick",
-    "NameRussian": "Kick Hazmat",
-    "NameEnglish": "Kick Hazmat",
+    "NameRussian": "KICK Hazmat",
+    "NameEnglish": "KICK Hazmat",
     "ItemId": 972302244,
     "ItemCategory": "Attire",
     "Components": [
@@ -6423,7 +6425,7 @@
   },
   {
     "ShortName": "dartboard",
-    "NameRussian": "Dart Board",
+    "NameRussian": "Мишень для дартс",
     "NameEnglish": "Dart Board",
     "ItemId": -872679147,
     "ItemCategory": "Fun",
@@ -6686,6 +6688,26 @@
     "NameRussian": "Фиолетовый фейерверк",
     "NameEnglish": "Violet Boomer",
     "ItemId": -280223496,
+    "ItemCategory": "Fun",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "firework.boomer.white",
+    "NameRussian": "White Boomer",
+    "NameEnglish": "White Boomer",
+    "ItemId": -18034684,
     "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
@@ -10877,7 +10899,7 @@
   },
   {
     "ShortName": "workbench.upgrade.accelerated",
-    "NameRussian": "Улучшение верстака на скорость",
+    "NameRussian": "Улучшение верстака «Скорость»",
     "NameEnglish": "Accelerated Workbench Upgrade",
     "ItemId": 798382300,
     "ItemCategory": "Component",
@@ -10897,7 +10919,7 @@
   },
   {
     "ShortName": "workbench.upgrade.comfort",
-    "NameRussian": "Улучшение верстака на комфорт",
+    "NameRussian": "Улучшение верстака «Комфорт»",
     "NameEnglish": "Comfort Workbench Upgrade",
     "ItemId": -770390391,
     "ItemCategory": "Component",
@@ -10917,7 +10939,7 @@
   },
   {
     "ShortName": "workbench.upgrade.defensive",
-    "NameRussian": "Улучшение верстака на защиту",
+    "NameRussian": "Улучшение верстака «Броня»",
     "NameEnglish": "Defensive Workbench Upgrade",
     "ItemId": -1953279770,
     "ItemCategory": "Component",
@@ -10937,7 +10959,7 @@
   },
   {
     "ShortName": "workbench.upgrade.efficiency",
-    "NameRussian": "Улучшение верстака на эффективность",
+    "NameRussian": "Улучшение верстака «Эффективность»",
     "NameEnglish": "Efficiency Workbench Upgrade",
     "ItemId": 1215602244,
     "ItemCategory": "Component",
@@ -10957,7 +10979,7 @@
   },
   {
     "ShortName": "workbench.upgrade.prototype",
-    "NameRussian": "Улучшение верстака на прототип",
+    "NameRussian": "Улучшение верстака «Прототип»",
     "NameEnglish": "Prototype Workbench Upgrade",
     "ItemId": -180862419,
     "ItemCategory": "Component",
@@ -10977,7 +10999,7 @@
   },
   {
     "ShortName": "workbench.upgrade.range",
-    "NameRussian": "Улучшение верстака на радиус",
+    "NameRussian": "Улучшение верстака «Радиус»",
     "NameEnglish": "Range Workbench Upgrade",
     "ItemId": 1470387662,
     "ItemCategory": "Component",
@@ -10997,7 +11019,7 @@
   },
   {
     "ShortName": "workbench.upgrade.recyclebin",
-    "NameRussian": "Улучшение верстака на утилизацию",
+    "NameRussian": "Улучшение верстака «Переработка»",
     "NameEnglish": "Recycle Bin Workbench Upgrade",
     "ItemId": -286541059,
     "ItemCategory": "Component",
@@ -11018,7 +11040,7 @@
   },
   {
     "ShortName": "workbench.upgrade.reinforced",
-    "NameRussian": "Улучшение верстака на укрепление",
+    "NameRussian": "Улучшение верстака «Защита»",
     "NameEnglish": "Reinforced Workbench Upgrade",
     "ItemId": 112268546,
     "ItemCategory": "Component",
@@ -11038,7 +11060,7 @@
   },
   {
     "ShortName": "workbench.upgrade.salvage",
-    "NameRussian": "Улучшение верстака на выгоду",
+    "NameRussian": "Улучшение верстака «Экономия»",
     "NameEnglish": "Salvage Workbench Upgrade",
     "ItemId": -160105346,
     "ItemCategory": "Component",
@@ -11058,7 +11080,7 @@
   },
   {
     "ShortName": "workbench.upgrade.surplus",
-    "NameRussian": "Улучшение верстака на излишки",
+    "NameRussian": "Улучшение верстака «Излишки»",
     "NameEnglish": "Surplus Workbench Upgrade",
     "ItemId": -1536343135,
     "ItemCategory": "Component",
@@ -14936,7 +14958,7 @@
   },
   {
     "ShortName": "chicken.costume",
-    "NameRussian": "Костюм кисатора",
+    "NameRussian": "Костюм курицы",
     "NameEnglish": "Chicken Costume",
     "ItemId": -152332823,
     "ItemCategory": "Attire",
@@ -19159,7 +19181,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -19335,7 +19358,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -19390,7 +19414,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -19588,7 +19613,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -19813,7 +19839,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -19961,7 +19988,8 @@
       "ItemDefinition",
       "UnityEngine.MonoBehaviour",
       "UnityEngine.Behaviour",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemMod"
     ]
   },
   {
@@ -22683,9 +22711,114 @@
   },
   {
     "ShortName": "rifle.ak.diver",
-    "NameRussian": "Штурмовая винтовка «Бездна»",
+    "NameRussian": "Автомат \"Бездна\"",
     "NameEnglish": "Abyss Assault Rifle",
     "ItemId": -139037392,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer",
+      "ItemModRackMountable"
+    ]
+  },
+  {
+    "ShortName": "rifle.ak.glass.blue",
+    "NameRussian": "Crystal Assault Rifle Sapphire",
+    "NameEnglish": "Crystal Assault Rifle Sapphire",
+    "ItemId": -1156572922,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer",
+      "ItemModRackMountable"
+    ]
+  },
+  {
+    "ShortName": "rifle.ak.glass.green",
+    "NameRussian": "Crystal Assault Rifle Emerald",
+    "NameEnglish": "Crystal Assault Rifle Emerald",
+    "ItemId": -75136407,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer",
+      "ItemModRackMountable"
+    ]
+  },
+  {
+    "ShortName": "rifle.ak.glass",
+    "NameRussian": "Crystal Assault Rifle Diamond",
+    "NameEnglish": "Crystal Assault Rifle Diamond",
+    "ItemId": -1920964108,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer",
+      "ItemModRackMountable"
+    ]
+  },
+  {
+    "ShortName": "rifle.ak.glass.pink",
+    "NameRussian": "Crystal Assault Rifle Pink Diamond",
+    "NameEnglish": "Crystal Assault Rifle Pink Diamond",
+    "ItemId": -1795386514,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer",
+      "ItemModRackMountable"
+    ]
+  },
+  {
+    "ShortName": "rifle.ak.glass.red",
+    "NameRussian": "Crystal Assault Rifle Ruby",
+    "NameEnglish": "Crystal Assault Rifle Ruby",
+    "ItemId": -1045971123,
     "ItemCategory": "Weapon",
     "Components": [
       "UnityEngine.Transform",
@@ -22745,8 +22878,8 @@
   },
   {
     "ShortName": "rifle.ak.med",
-    "NameRussian": "Medieval AR",
-    "NameEnglish": "Medieval AR",
+    "NameRussian": "Medieval Assault Rifle",
+    "NameEnglish": "Medieval Assault Rifle",
     "ItemId": 472505338,
     "ItemCategory": "Weapon",
     "Components": [
@@ -23853,6 +23986,26 @@
       "ItemMod",
       "ItemBlueprint",
       "ItemModProjectile"
+    ]
+  },
+  {
+    "ShortName": "medical.honey.bandage",
+    "NameRussian": "Medical Honey Bandage",
+    "NameEnglish": "Medical Honey Bandage",
+    "ItemId": -75264812,
+    "ItemCategory": "Medical",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModConsumable"
     ]
   },
   {
