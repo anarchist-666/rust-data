@@ -228,8 +228,8 @@
   },
   {
     "ShortName": "50cal.mounted",
-    "NameRussian": "#50cal",
-    "NameEnglish": "#50cal",
+    "NameRussian": "50 Cal Turret",
+    "NameEnglish": "50 Cal Turret",
     "ItemId": 162882477,
     "ItemCategory": "Weapon",
     "Components": [
@@ -248,8 +248,8 @@
   },
   {
     "ShortName": "50cal.mounted.left",
-    "NameRussian": "#50cal",
-    "NameEnglish": "#50cal",
+    "NameRussian": "Dual 50 Cal Turret",
+    "NameEnglish": "Dual 50 Cal Turret",
     "ItemId": -1467876094,
     "ItemCategory": "Weapon",
     "Components": [
@@ -268,8 +268,8 @@
   },
   {
     "ShortName": "50cal.mounted.right",
-    "NameRussian": "#50cal",
-    "NameEnglish": "#50cal",
+    "NameRussian": "Dual 50 Cal Turret",
+    "NameEnglish": "Dual 50 Cal Turret",
     "ItemId": 1248383659,
     "ItemCategory": "Weapon",
     "Components": [
@@ -2081,7 +2081,7 @@
   },
   {
     "ShortName": "gates.external.high.legacy",
-    "NameRussian": "High External Legacy Gate",
+    "NameRussian": "Высокие внешние деревянные ворота «Legacy»",
     "NameEnglish": "High External Legacy Gate",
     "ItemId": -1442339204,
     "ItemCategory": "Construction",
@@ -3012,7 +3012,7 @@
   },
   {
     "ShortName": "roadsign.gloves",
-    "NameRussian": "Road Sign Gloves",
+    "NameRussian": "Перчатки из дорожных знаков",
     "NameEnglish": "Road Sign Gloves",
     "ItemId": -699558439,
     "ItemCategory": "Attire",
@@ -4486,6 +4486,28 @@
     ]
   },
   {
+    "ShortName": "hazmat.plague",
+    "NameRussian": "Plague Doctor Hazmat Suit",
+    "NameEnglish": "Plague Doctor Hazmat Suit",
+    "ItemId": -1587608109,
+    "ItemCategory": "Attire",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemModWearable",
+      "ItemMod",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemBlueprint",
+      "ItemDefinition",
+      "ItemFootstepSounds",
+      "ItemModContainerArmorSlot",
+      "ItemModContainer"
+    ]
+  },
+  {
     "ShortName": "hazmatsuit_scientist",
     "NameRussian": "Scientist Suit",
     "NameEnglish": "Scientist Suit",
@@ -5557,6 +5579,46 @@
     ]
   },
   {
+    "ShortName": "wall.animal.fence.gate",
+    "NameRussian": "Animal Fence Gate",
+    "NameEnglish": "Animal Fence Gate",
+    "ItemId": 1143376304,
+    "ItemCategory": "Construction",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "wall.animal.fence",
+    "NameRussian": "Animal Fence",
+    "NameEnglish": "Animal Fence",
+    "ItemId": -1814195745,
+    "ItemCategory": "Construction",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "barricade.concrete",
     "NameRussian": "Бетонная баррикада",
     "NameEnglish": "Concrete Barricade",
@@ -5637,10 +5699,70 @@
     ]
   },
   {
+    "ShortName": "barricade.sandbags.half",
+    "NameRussian": "#barricade.sandbags.half",
+    "NameEnglish": "#barricade.sandbags.half",
+    "ItemId": -219005627,
+    "ItemCategory": "Construction",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
     "ShortName": "barricade.sandbags",
     "NameRussian": "Баррикада из мешков с песком",
     "NameEnglish": "Sandbag Barricade",
     "ItemId": -559599960,
+    "ItemCategory": "Construction",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "barricade.sandbags.pillbox",
+    "NameRussian": "#barricade.sandbags.pillbox",
+    "NameEnglish": "#barricade.sandbags.pillbox",
+    "ItemId": -1088645302,
+    "ItemCategory": "Construction",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "barricade.sandbags.three.quarter",
+    "NameRussian": "#barricade.sandbags.three.quarter",
+    "NameEnglish": "#barricade.sandbags.three.quarter",
+    "ItemId": 2141654944,
     "ItemCategory": "Construction",
     "Components": [
       "UnityEngine.Transform",
@@ -5862,6 +5984,26 @@
       "ItemModEntity",
       "ItemMod",
       "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "generator.biofuel",
+    "NameRussian": "Генератор Биотоплива",
+    "NameEnglish": "Biofuel Generator",
+    "ItemId": -1661343913,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
     ]
   },
   {
@@ -6705,7 +6847,7 @@
   },
   {
     "ShortName": "firework.boomer.white",
-    "NameRussian": "White Boomer",
+    "NameRussian": "Белый фейерверк",
     "NameEnglish": "White Boomer",
     "ItemId": -18034684,
     "ItemCategory": "Fun",
@@ -7238,7 +7380,7 @@
   },
   {
     "ShortName": "jukebox",
-    "NameRussian": "Jukebox",
+    "NameRussian": "Музыкальный автомат",
     "NameEnglish": "Jukebox",
     "ItemId": -1018085504,
     "ItemCategory": "Fun",
@@ -7959,7 +8101,7 @@
   },
   {
     "ShortName": "mannequin",
-    "NameRussian": "Clothing Mannequin",
+    "NameRussian": "Манекен для одежды",
     "NameEnglish": "Clothing Mannequin",
     "ItemId": -1035206446,
     "ItemCategory": "Items",
@@ -7999,7 +8141,7 @@
   },
   {
     "ShortName": "gamesroom.minifridge",
-    "NameRussian": "Bar Games Minifridge",
+    "NameRussian": "Барный мини-холодильник",
     "NameEnglish": "Bar Games Minifridge",
     "ItemId": 352442426,
     "ItemCategory": "Electrical",
@@ -9476,7 +9618,7 @@
   },
   {
     "ShortName": "pooltable",
-    "NameRussian": "Pool Table",
+    "NameRussian": "Бильярдный стол",
     "NameEnglish": "Pool Table",
     "ItemId": -1748166144,
     "ItemCategory": "Fun",
@@ -11264,7 +11406,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption",
-      "ItemModCompostable"
+      "ItemModCompostable",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "bread.brioche.loaf",
+    "NameRussian": "Хлеб Бриошь",
+    "NameEnglish": "Brioche Bread",
+    "ItemId": -909588488,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -11950,6 +12115,73 @@
     ]
   },
   {
+    "ShortName": "beefmeat.cooked",
+    "NameRussian": "Приготовленная Говядина.",
+    "NameEnglish": "Cooked Beef",
+    "ItemId": 718346230,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCookable",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "beefmeat",
+    "NameRussian": "Сырая Говядина",
+    "NameEnglish": "Raw Beef",
+    "ItemId": -201824959,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCookable",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "beefmeat.spoiled",
+    "NameRussian": "Испорченное Мясо",
+    "NameEnglish": "Spoiled Beef",
+    "ItemId": 1412100395,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable"
+    ]
+  },
+  {
     "ShortName": "crocodilemeat.cooked",
     "NameRussian": "Приготовленное мясо крокодила",
     "NameEnglish": "Cooked Crocodile Meat",
@@ -12348,6 +12580,73 @@
     ]
   },
   {
+    "ShortName": "muttonmeat.cooked",
+    "NameRussian": "Cooked Mutton",
+    "NameEnglish": "Cooked Mutton",
+    "ItemId": -319133397,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCookable",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "muttonmeat",
+    "NameRussian": "Raw Mutton",
+    "NameEnglish": "Raw Mutton",
+    "ItemId": -1957595450,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCookable",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "muttonmeat.spoiled",
+    "NameRussian": "Spoiled Mutton",
+    "NameEnglish": "Spoiled Mutton",
+    "ItemId": 1751463672,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable"
+    ]
+  },
+  {
     "ShortName": "meat.pork.burned",
     "NameRussian": "Сгоревшая свинина",
     "NameEnglish": "Burnt Pork",
@@ -12592,6 +12891,72 @@
     ]
   },
   {
+    "ShortName": "cream",
+    "NameRussian": "Сливки",
+    "NameEnglish": "Cream",
+    "ItemId": 1185218972,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "milk",
+    "NameRussian": "Milk",
+    "NameEnglish": "Milk",
+    "ItemId": 325350919,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
+    "ShortName": "skimmedmilk",
+    "NameRussian": "Skimmed Milk",
+    "NameEnglish": "Skimmed Milk",
+    "ItemId": -1019639625,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemModCompostable",
+      "ItemModFoodSpoiling"
+    ]
+  },
+  {
     "ShortName": "mushroom",
     "NameRussian": "Гриб",
     "NameEnglish": "Mushroom",
@@ -12653,7 +13018,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.apple.rich",
+    "NameRussian": "Rich Apple Pie",
+    "NameEnglish": "Rich Apple Pie",
+    "ItemId": -1846744758,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12674,7 +13062,74 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.bear.rich",
+    "NameRussian": "Rich Bear Pie",
+    "NameEnglish": "Rich Bear Pie",
+    "ItemId": 1883513936,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.beef",
+    "NameRussian": "Beef Pie",
+    "NameEnglish": "Beef Pie",
+    "ItemId": 782269436,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.beef.rich",
+    "NameRussian": "Rich Beef Pie",
+    "NameEnglish": "Rich Beef Pie",
+    "ItemId": -867055736,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12695,7 +13150,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.bigcat.rich",
+    "NameRussian": "Rich Big Cat Pie",
+    "NameEnglish": "Rich Big Cat Pie",
+    "ItemId": 1469787676,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12716,7 +13194,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.chicken.rich",
+    "NameRussian": "Rich Chicken Pie",
+    "NameEnglish": "Rich Chicken Pie",
+    "ItemId": 2006264797,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12737,7 +13238,8 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12758,7 +13260,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.fish.rich",
+    "NameRussian": "Rich Fish Pie",
+    "NameEnglish": "Rich Fish Pie",
+    "ItemId": 1427291780,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12779,7 +13304,74 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.hunters.rich",
+    "NameRussian": "Rich Hunters Pie",
+    "NameEnglish": "Rich Hunters Pie",
+    "ItemId": -1188678681,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.mutton",
+    "NameRussian": "Shepherds Pie",
+    "NameEnglish": "Shepherds Pie",
+    "ItemId": 939198535,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.mutton.rich",
+    "NameRussian": "Rich Shepherds Pie",
+    "NameEnglish": "Rich Shepherds Pie",
+    "ItemId": 1468691829,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12800,7 +13392,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.pork.rich",
+    "NameRussian": "Rich Pork Pie",
+    "NameEnglish": "Rich Pork Pie",
+    "ItemId": 1988640176,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12821,7 +13436,30 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
+    ]
+  },
+  {
+    "ShortName": "pie.pumpkin.rich",
+    "NameRussian": "Rich Pumpkin Pie",
+    "NameEnglish": "Rich Pumpkin Pie",
+    "ItemId": 1364112542,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -12842,7 +13480,8 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModConsume",
-      "ItemModProjectile"
+      "ItemModProjectile",
+      "ItemModCookingWorkbench"
     ]
   },
   {
@@ -14297,7 +14936,7 @@
   },
   {
     "ShortName": "hat.snakemask",
-    "NameRussian": "Snake Mask",
+    "NameRussian": "Маска Змеи",
     "NameEnglish": "Snake mask",
     "ItemId": -1314079879,
     "ItemCategory": "Attire",
@@ -15658,7 +16297,7 @@
     "NameRussian": "Кладбищенский забор",
     "NameEnglish": "Graveyard Fence",
     "ItemId": -1679267738,
-    "ItemCategory": "Misc",
+    "ItemCategory": "Construction",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -19828,7 +20467,7 @@
   {
     "ShortName": "horsedung",
     "NameRussian": "Конский навоз",
-    "NameEnglish": "Horse Dung",
+    "NameEnglish": "Dung",
     "ItemId": -1579932985,
     "ItemCategory": "Resources",
     "Components": [
@@ -20214,6 +20853,23 @@
     ]
   },
   {
+    "ShortName": "wool",
+    "NameRussian": "Wool",
+    "NameEnglish": "Wool",
+    "ItemId": 204391867,
+    "ItemCategory": "Resources",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "advancedcoolingtea",
     "NameRussian": "Advanced Cooling Tea",
     "NameEnglish": "Advanced Cooling Tea",
@@ -20254,6 +20910,27 @@
     ]
   },
   {
+    "ShortName": "purecoolingtea.creamy",
+    "NameRussian": "Creamy Pure Cooling Tea",
+    "NameEnglish": "Creamy Pure Cooling Tea",
+    "ItemId": 1527700610,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "purecoolingtea",
     "NameRussian": "Pure Cooling Tea",
     "NameEnglish": "Pure Cooling Tea",
@@ -20271,6 +20948,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "purecoolingtea.milky",
+    "NameRussian": "Milky Pure Cooling Tea",
+    "NameEnglish": "Milky Pure Cooling Tea",
+    "ItemId": 1738714421,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20374,6 +21072,27 @@
     ]
   },
   {
+    "ShortName": "pureharvestingtea.creamy",
+    "NameRussian": "Creamy Pure Harvesting Tea",
+    "NameEnglish": "Creamy Pure Harvesting Tea",
+    "ItemId": -1661676046,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "pureharvestingtea",
     "NameRussian": "Pure Harvesting Tea",
     "NameEnglish": "Pure Harvesting Tea",
@@ -20391,6 +21110,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "pureharvestingtea.milky",
+    "NameRussian": "Milky Pure Harvesting Tea",
+    "NameEnglish": "Milky Pure Harvesting Tea",
+    "ItemId": 789540413,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20434,6 +21174,27 @@
     ]
   },
   {
+    "ShortName": "healingtea.pure.creamy",
+    "NameRussian": "Creamy Pure Healing Tea",
+    "NameEnglish": "Creamy Pure Healing Tea",
+    "ItemId": -132349657,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "healingtea.pure",
     "NameRussian": "Pure Healing Tea",
     "NameEnglish": "Pure Healing Tea",
@@ -20451,6 +21212,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "healingtea.pure.milky",
+    "NameRussian": "Milky Pure Healing Tea",
+    "NameEnglish": "Milky Pure Healing Tea",
+    "ItemId": -1644292642,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20494,6 +21276,27 @@
     ]
   },
   {
+    "ShortName": "maxhealthtea.pure.creamy",
+    "NameRussian": "Creamy Pure Max Health Tea",
+    "NameEnglish": "Creamy Pure Max Health Tea",
+    "ItemId": -1244746477,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "maxhealthtea.pure",
     "NameRussian": "Pure Max Health Tea",
     "NameEnglish": "Pure Max Health Tea",
@@ -20511,6 +21314,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "maxhealthtea.pure.milky",
+    "NameRussian": "Milky Pure Max Health Tea",
+    "NameEnglish": "Milky Pure Max Health Tea",
+    "ItemId": -1388103748,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20554,6 +21378,27 @@
     ]
   },
   {
+    "ShortName": "oretea.pure.creamy",
+    "NameRussian": "Creamy Pure Ore Tea",
+    "NameEnglish": "Creamy Pure Ore Tea",
+    "ItemId": -744942541,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "oretea.pure",
     "NameRussian": "Pure Ore Tea",
     "NameEnglish": "Pure Ore Tea",
@@ -20571,6 +21416,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "oretea.pure.milky",
+    "NameRussian": "Milky Pure Ore Tea",
+    "NameEnglish": "Milky Pure Ore Tea",
+    "ItemId": 1243083208,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20674,6 +21540,27 @@
     ]
   },
   {
+    "ShortName": "radiationresisttea.pure.creamy",
+    "NameRussian": "Creamy Pure Anti-Rad Tea",
+    "NameEnglish": "Creamy Pure Anti-Rad Tea",
+    "ItemId": -1882497808,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "radiationresisttea.pure",
     "NameRussian": "Pure Anti-Rad Tea",
     "NameEnglish": "Pure Anti-Rad Tea",
@@ -20691,6 +21578,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "radiationresisttea.pure.milky",
+    "NameRussian": "Milky Pure Anti-Rad Tea",
+    "NameEnglish": "Milky Pure Anti-Rad Tea",
+    "ItemId": -1341272471,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20734,6 +21642,27 @@
     ]
   },
   {
+    "ShortName": "scraptea.pure.creamy",
+    "NameRussian": "Creamy Pure Scrap Tea",
+    "NameEnglish": "Creamy Pure Scrap Tea",
+    "ItemId": 1519395656,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "scraptea.pure",
     "NameRussian": "Pure Scrap Tea",
     "NameEnglish": "Pure Scrap Tea",
@@ -20751,6 +21680,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "scraptea.pure.milky",
+    "NameRussian": "Milky Pure Scrap Tea",
+    "NameEnglish": "Milky Pure Scrap Tea",
+    "ItemId": -1057052157,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20794,6 +21744,27 @@
     ]
   },
   {
+    "ShortName": "purewarmingtea.creamy",
+    "NameRussian": "Creamy Pure Warming Tea",
+    "NameEnglish": "Creamy Pure Warming Tea",
+    "ItemId": 556232090,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "purewarmingtea",
     "NameRussian": "Pure Warming Tea",
     "NameEnglish": "Pure Warming Tea",
@@ -20811,6 +21782,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "purewarmingtea.milky",
+    "NameRussian": "Milky Pure Warming Tea",
+    "NameEnglish": "Milky Pure Warming Tea",
+    "ItemId": 91167975,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -20874,6 +21866,27 @@
     ]
   },
   {
+    "ShortName": "woodtea.pure.creamy",
+    "NameRussian": "Creamy Pure Wood Tea",
+    "NameEnglish": "Creamy Pure Wood Tea",
+    "ItemId": -844428380,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "woodtea.pure",
     "NameRussian": "Pure Wood Tea",
     "NameEnglish": "Pure Wood Tea",
@@ -20891,6 +21904,27 @@
       "ItemMod",
       "ItemModConsumable",
       "ItemModMenuOption"
+    ]
+  },
+  {
+    "ShortName": "woodtea.pure.milky",
+    "NameRussian": "Milky Pure Wood Tea",
+    "NameEnglish": "Milky Pure Wood Tea",
+    "ItemId": 777041831,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModConsume",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModMenuOption",
+      "ItemBlueprint"
     ]
   },
   {
@@ -24507,7 +25541,7 @@
   },
   {
     "ShortName": "pistol.semiauto.a.m15",
-    "NameRussian": "M15 Semi-Automatic Pistol",
+    "NameRussian": "Полуавтоматический пистолет",
     "NameEnglish": "M15 Semi-Automatic Pistol",
     "ItemId": 1673224590,
     "ItemCategory": "Weapon",
