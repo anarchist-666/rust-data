@@ -13530,7 +13530,7 @@
     "NameRussian": "Канистра для воды",
     "NameEnglish": "Water Jug",
     "ItemId": -119235651,
-    "ItemCategory": "Food",
+    "ItemCategory": "Items",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
