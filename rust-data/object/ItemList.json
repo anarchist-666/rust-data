@@ -6606,6 +6606,26 @@
     ]
   },
   {
+    "ShortName": "discord.zombie.plushie",
+    "NameRussian": "Zombie Wumpus Plush",
+    "NameEnglish": "Zombie Wumpus Plush",
+    "ItemId": -570638754,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint"
+    ]
+  },
+  {
     "ShortName": "drone",
     "NameRussian": "Дрон",
     "NameEnglish": "Drone",
@@ -7199,6 +7219,46 @@
       "UnityEngine.Behaviour",
       "ItemModEntity",
       "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "halloween.string.lights",
+    "NameRussian": "Halloween String Lights",
+    "NameEnglish": "Halloween String Lights",
+    "ItemId": 139776459,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "halloweenwreath",
+    "NameRussian": "Halloween Wreath",
+    "NameEnglish": "Halloween Wreath",
+    "ItemId": 1174330346,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint"
     ]
   },
   {
@@ -10653,6 +10713,27 @@
       "ItemBlueprint",
       "ItemModEntity",
       "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "tunalight.skull",
+    "NameRussian": "Skull Wall Lamp",
+    "NameEnglish": "Skull Wall Lamp",
+    "ItemId": -1716340729,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModDeployable",
+      "ItemBlueprint",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModContainer"
     ]
   },
   {
@@ -15949,6 +16030,26 @@
       "ItemMod",
       "ItemModCrackOpen",
       "ItemModUnwrap"
+    ]
+  },
+  {
+    "ShortName": "alien.costume",
+    "NameRussian": "Alien Costume",
+    "NameEnglish": "Alien Costume",
+    "ItemId": 1930628359,
+    "ItemCategory": "Attire",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemModWearable",
+      "ItemMod",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemDefinition",
+      "ItemBlueprint",
+      "ItemFootstepSounds"
     ]
   },
   {
