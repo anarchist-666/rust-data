@@ -23,7 +23,7 @@
     "NameRussian": "Discord Trophy",
     "NameEnglish": "Discord Trophy",
     "ItemId": 1494014226,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -4971,6 +4971,26 @@
     ]
   },
   {
+    "ShortName": "clothing.mod.armorinsert_wool",
+    "NameRussian": "Wool Armor Insert",
+    "NameEnglish": "Wool Armor Insert",
+    "ItemId": -593892104,
+    "ItemCategory": "Items",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemBlueprint",
+      "ItemModSound",
+      "ItemMod",
+      "ItemModArmorInsert"
+    ]
+  },
+  {
     "ShortName": "bleach",
     "NameRussian": "Bleach",
     "NameEnglish": "Bleach",
@@ -6389,7 +6409,7 @@
     "NameRussian": "Cancer Research UK Plushie",
     "NameEnglish": "Cancer Research UK Plushie",
     "ItemId": 2130820932,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6409,7 +6429,7 @@
     "NameRussian": "Ronald McDonald House UK Plushie",
     "NameEnglish": "Ronald McDonald House UK Plushie",
     "ItemId": 2130820933,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6429,7 +6449,7 @@
     "NameRussian": "Ronald McDonald House UK 2026 Plushie",
     "NameEnglish": "Ronald McDonald House UK 2026 Plushie",
     "ItemId": 2130820934,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6449,7 +6469,7 @@
     "NameRussian": "Cancer Research UK 2026 Plushie",
     "NameEnglish": "Cancer Research UK 2026 Plushie",
     "ItemId": 2130820927,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6590,7 +6610,7 @@
     "NameRussian": "Wumpus Plush",
     "NameEnglish": "Wumpus Plush",
     "ItemId": -1800102806,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6610,7 +6630,7 @@
     "NameRussian": "Zombie Wumpus Plush",
     "NameEnglish": "Zombie Wumpus Plush",
     "ItemId": -570638754,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -6670,7 +6690,7 @@
     "NameRussian": "Portable Easel",
     "NameEnglish": "Portable Easel",
     "ItemId": -1779203452,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -7266,7 +7286,7 @@
     "NameRussian": "Hazmat Plushy",
     "NameEnglish": "Hazmat Plushy",
     "ItemId": 1578317134,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -7286,7 +7306,7 @@
     "NameRussian": "Heavy Scientist Plushie",
     "NameEnglish": "Heavy Scientist Plushie",
     "ItemId": 146221721,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -8180,8 +8200,8 @@
     ]
   },
   {
-    "ShortName": "mini fridge",
-    "NameRussian": "Мини-холодильник",
+    "ShortName": "minifridge",
+    "NameRussian": "Mini Fridge",
     "NameEnglish": "Mini Fridge",
     "ItemId": 1174484438,
     "ItemCategory": "Electrical",
@@ -9840,7 +9860,7 @@
     "NameRussian": "Scientist Plushie",
     "NameEnglish": "Scientist Plushie",
     "ItemId": 445662288,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -9860,7 +9880,7 @@
     "NameRussian": "Ледяная скульптура",
     "NameEnglish": "Ice Sculpture",
     "ItemId": 504109620,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -9882,7 +9902,7 @@
     "NameRussian": "Stone Sculpture",
     "NameEnglish": "Stone Sculpture",
     "ItemId": 1852905808,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -10070,7 +10090,7 @@
     "NameRussian": "Картина в рамке (Маленькая)",
     "NameEnglish": "Landscape Picture Frame",
     "ItemId": -845557339,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -10092,7 +10112,7 @@
     "NameRussian": "Рамка (Средняя)",
     "NameEnglish": "Portrait Picture Frame",
     "ItemId": -1370759135,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -10114,7 +10134,7 @@
     "NameRussian": "Рамка (Высокая)",
     "NameEnglish": "Tall Picture Frame",
     "ItemId": 121049755,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -10136,7 +10156,7 @@
     "NameRussian": "Картина в рамке (Большая)",
     "NameEnglish": "XL Picture Frame",
     "ItemId": -996185386,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -10158,7 +10178,7 @@
     "NameRussian": "Картина в рамке (Огромная)",
     "NameEnglish": "XXL Picture Frame",
     "ItemId": 98508942,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -12197,7 +12217,7 @@
   },
   {
     "ShortName": "beefmeat.cooked",
-    "NameRussian": "Приготовленная Говядина.",
+    "NameRussian": "Жареная говядина",
     "NameEnglish": "Cooked Beef",
     "ItemId": 718346230,
     "ItemCategory": "Food",
@@ -12220,7 +12240,7 @@
   },
   {
     "ShortName": "beefmeat",
-    "NameRussian": "Сырая Говядина",
+    "NameRussian": "Сырая говядина",
     "NameEnglish": "Raw Beef",
     "ItemId": -201824959,
     "ItemCategory": "Food",
@@ -13100,7 +13120,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13122,7 +13143,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13144,7 +13166,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13166,7 +13189,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13188,7 +13212,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13210,7 +13235,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13232,7 +13258,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13254,7 +13281,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13276,7 +13304,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13298,7 +13327,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13320,7 +13350,31 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
+    ]
+  },
+  {
+    "ShortName": "pie.crocodile.rich",
+    "NameRussian": "Rich Crocodile Pie",
+    "NameEnglish": "Rich Crocodile Pie",
+    "ItemId": -1540865198,
+    "ItemCategory": "Food",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemModConsumable",
+      "ItemModConsume",
+      "ItemModProjectile",
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13342,7 +13396,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13364,7 +13419,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13386,7 +13442,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13408,7 +13465,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13430,7 +13488,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13452,7 +13511,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13474,7 +13534,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13496,7 +13557,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13518,7 +13580,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13540,7 +13603,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13562,7 +13626,8 @@
       "ItemModConsumable",
       "ItemModConsume",
       "ItemModProjectile",
-      "ItemModCookingWorkbench"
+      "ItemModCookingWorkbench",
+      "ItemModFoodVisual"
     ]
   },
   {
@@ -13926,7 +13991,7 @@
     "NameRussian": "Напольный художественный холст",
     "NameEnglish": "Artist Canvas Standing",
     "ItemId": -946599114,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -13948,7 +14013,7 @@
     "NameRussian": "Большой художественный холст",
     "NameEnglish": "Artist Canvas Large",
     "ItemId": -946599113,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -13970,7 +14035,7 @@
     "NameRussian": "Средний художественный холст",
     "NameEnglish": "Artist Canvas Medium",
     "ItemId": -946599131,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -13992,7 +14057,7 @@
     "NameRussian": "Художественный холст (XL)",
     "NameEnglish": "Artist Canvas XL",
     "ItemId": 1562867678,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14014,7 +14079,7 @@
     "NameRussian": "Малый художественный холст",
     "NameEnglish": "Artist Canvas Small",
     "ItemId": 1609921845,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14036,7 +14101,7 @@
     "NameRussian": "Художественный холст (XXL)",
     "NameEnglish": "Artist Canvas XXL",
     "ItemId": -816769770,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14058,7 +14123,7 @@
     "NameRussian": "Светящаяся рамка большая",
     "NameEnglish": "Light-Up Frame Large",
     "ItemId": 242421166,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14081,7 +14146,7 @@
     "NameRussian": "Светящаяся рамка большая",
     "NameEnglish": "Light-Up Frame Medium",
     "ItemId": -1294739579,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14104,7 +14169,7 @@
     "NameRussian": "Светящаяся рамка большая",
     "NameEnglish": "Light-Up Frame Small",
     "ItemId": 1691223771,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14127,7 +14192,7 @@
     "NameRussian": "Светящаяся рамка большая",
     "NameEnglish": "Light-Up Frame Standing",
     "ItemId": 1950013766,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14150,7 +14215,7 @@
     "NameRussian": "Большая рамка с подсветкой",
     "NameEnglish": "Light-Up Frame XL",
     "ItemId": 1801656689,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14173,7 +14238,7 @@
     "NameRussian": "Большая рамка с подсветкой",
     "NameEnglish": "Light-Up Frame XXL",
     "ItemId": 1447138977,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14196,7 +14261,7 @@
     "NameRussian": "Большая золотая рамка",
     "NameEnglish": "Ornate Frame large",
     "ItemId": -996235148,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14218,7 +14283,7 @@
     "NameRussian": "Средняя украшенная рамка",
     "NameEnglish": "Ornate Frame Medium",
     "ItemId": -1901993050,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14240,7 +14305,7 @@
     "NameRussian": "Малая украшенная рамка",
     "NameEnglish": "Ornate Frame Small",
     "ItemId": -1836526520,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14262,7 +14327,7 @@
     "NameRussian": "Напольная украшенная рамка",
     "NameEnglish": "Ornate Frame Standing",
     "ItemId": -1528767189,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14284,7 +14349,7 @@
     "NameRussian": "Большая украшенная рамка",
     "NameEnglish": "Ornate Frame XL",
     "ItemId": -1430299277,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14306,7 +14371,7 @@
     "NameRussian": "Сверхбольшая украшенная рамка",
     "NameEnglish": "Ornate Frame XXL",
     "ItemId": -1322332389,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14372,7 +14437,7 @@
     "NameRussian": "Большая рамка для ставен",
     "NameEnglish": "Shutter Frame large",
     "ItemId": -1094453063,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14394,7 +14459,7 @@
     "NameRussian": "Средняя рамка для ставен",
     "NameEnglish": "Shutter Frame Medium",
     "ItemId": -1060567807,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14416,7 +14481,7 @@
     "NameRussian": "Маленькая рамка для ставен",
     "NameEnglish": "Shutter Frame Small",
     "ItemId": -498301781,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14438,7 +14503,7 @@
     "NameRussian": "Напольная рамка для ставен",
     "NameEnglish": "Shutter Frame Standing",
     "ItemId": -1774190142,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14460,7 +14525,7 @@
     "NameRussian": "Большая закрывающаяся рамка.",
     "NameEnglish": "Shutter Frame XL",
     "ItemId": -1244287686,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14482,7 +14547,7 @@
     "NameRussian": "ОЧЕНЬ большая закрывающаяся рамка.",
     "NameEnglish": "Shutter Frame XXL",
     "ItemId": -1211801774,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14504,7 +14569,7 @@
     "NameRussian": "Большая деревянная рамка",
     "NameEnglish": "Wood Frame Large",
     "ItemId": -635951327,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14524,7 +14589,7 @@
     "NameRussian": "Средняя деревянная рамка",
     "NameEnglish": "Wood Frame Medium",
     "ItemId": -1541706279,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14544,7 +14609,7 @@
     "NameRussian": "Маленькая деревянная рамка",
     "NameEnglish": "Wood Frame Small",
     "ItemId": -1476278729,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14564,7 +14629,7 @@
     "NameRussian": "Напольная деревянная рамка",
     "NameEnglish": "Wood Frame Standing",
     "ItemId": 1769475390,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14584,7 +14649,7 @@
     "NameRussian": "Circle Balloon",
     "NameEnglish": "Circle Balloon",
     "ItemId": -105343718,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14604,7 +14669,7 @@
     "NameRussian": "Heart Balloon",
     "NameEnglish": "Heart Balloon",
     "ItemId": 362863314,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14624,7 +14689,7 @@
     "NameRussian": "Latex Balloon",
     "NameEnglish": "Latex Balloon",
     "ItemId": 1295301598,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14644,7 +14709,7 @@
     "NameRussian": "Clump of Latex Balloons",
     "NameEnglish": "Clump of Latex Balloons",
     "ItemId": -1440443161,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14664,7 +14729,7 @@
     "NameRussian": "Clump of Mixed Balloons",
     "NameEnglish": "Clump of Mixed Balloons",
     "ItemId": 571949408,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14684,7 +14749,7 @@
     "NameRussian": "Speech Bubble Balloon",
     "NameEnglish": "Speech Bubble Balloon",
     "ItemId": 963400638,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -14704,7 +14769,7 @@
     "NameRussian": "Star Balloon",
     "NameEnglish": "Star Balloon",
     "ItemId": -1782127806,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15176,7 +15241,7 @@
     "NameRussian": "Трофейное панно для рыбы",
     "NameEnglish": "Fish Trophy",
     "ItemId": -1913996738,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15196,7 +15261,7 @@
     "NameRussian": "Большое трофейное панно",
     "NameEnglish": "Large Hunting Trophy",
     "ItemId": 960673498,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15216,7 +15281,7 @@
     "NameRussian": "Маленькое трофейное панно",
     "NameEnglish": "Small Hunting Trophy",
     "ItemId": -869598982,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15456,7 +15521,7 @@
     "NameRussian": "Плакат \"Разыскивается 2\"",
     "NameEnglish": "Wanted Poster 2",
     "ItemId": 301063058,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15476,7 +15541,7 @@
     "NameRussian": "Плакат «Разыскивается 3»",
     "NameEnglish": "Wanted Poster 3",
     "ItemId": -1265020883,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15496,7 +15561,7 @@
     "NameRussian": "Плакат \"Разыскивается 4\"",
     "NameEnglish": "Wanted Poster 4",
     "ItemId": 1463862472,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -15516,7 +15581,7 @@
     "NameRussian": "Плакат \"В розыске\"",
     "NameEnglish": "Wanted Poster",
     "ItemId": -1344017968,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -17905,7 +17970,7 @@
     "NameRussian": "Горизонтальная фоторамка",
     "NameEnglish": "Landscape Photo Frame",
     "ItemId": 1697996440,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -17927,7 +17992,7 @@
     "NameRussian": "Огромная фоторамка",
     "NameEnglish": "Large Photo Frame",
     "ItemId": 1205084994,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -17949,7 +18014,7 @@
     "NameRussian": "Портретная фоторамка",
     "NameEnglish": "Portrait Photo Frame",
     "ItemId": 1729712564,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -18144,7 +18209,7 @@
     "NameRussian": "Twitch Rivals Trophy",
     "NameEnglish": "Twitch Rivals Trophy",
     "ItemId": 975983052,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -18164,7 +18229,7 @@
     "NameRussian": "Twitch Rivals Trophy 2023",
     "NameEnglish": "Twitch Rivals Trophy 2023",
     "ItemId": -901370585,
-    "ItemCategory": "Items",
+    "ItemCategory": "Fun",
     "Components": [
       "UnityEngine.Transform",
       "UnityEngine.Component",
@@ -19468,7 +19533,8 @@
       "ItemMod",
       "ItemModConsume",
       "ItemModCompostable",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -19528,7 +19594,8 @@
       "ItemMod",
       "ItemModCompostable",
       "ItemModConsume",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -19588,7 +19655,8 @@
       "ItemMod",
       "ItemModCompostable",
       "ItemModConsume",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -19648,7 +19716,8 @@
       "ItemMod",
       "ItemModCompostable",
       "ItemModConsume",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -19708,7 +19777,8 @@
       "ItemMod",
       "ItemModCompostable",
       "ItemModConsume",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -19768,7 +19838,8 @@
       "ItemMod",
       "ItemModCompostable",
       "ItemModConsume",
-      "ItemModFoodSpoiling"
+      "ItemModFoodSpoiling",
+      "ItemModSwap"
     ]
   },
   {
@@ -20306,9 +20377,9 @@
     ]
   },
   {
-    "ShortName": "advancedblueprintfragment",
-    "NameRussian": "Фрагмент продвинутого чертежа",
-    "NameEnglish": "Advanced Blueprint Fragment",
+    "ShortName": "blueprintbook",
+    "NameRussian": "Blueprint Book",
+    "NameEnglish": "Blueprint Book",
     "ItemId": -1896395719,
     "ItemCategory": "Component",
     "Components": [
@@ -20322,9 +20393,9 @@
     ]
   },
   {
-    "ShortName": "basicblueprintfragment",
-    "NameRussian": "Фрагмент базового чертежа",
-    "NameEnglish": "Basic Blueprint Fragment",
+    "ShortName": "blueprintfragment",
+    "NameRussian": "Blueprint Fragment",
+    "NameEnglish": "Blueprint Fragment",
     "ItemId": -143481979,
     "ItemCategory": "Component",
     "Components": [
@@ -20337,6 +20408,22 @@
       "UnityEngine.Behaviour",
       "ItemModUpgrade",
       "ItemMod"
+    ]
+  },
+  {
+    "ShortName": "blueprintpage",
+    "NameRussian": "Blueprint Page",
+    "NameEnglish": "Blueprint Page",
+    "ItemId": -1716287874,
+    "ItemCategory": "Component",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour"
     ]
   },
   {
@@ -22127,7 +22214,7 @@
   },
   {
     "ShortName": "rf.detonator",
-    "NameRussian": "Радиопередатчик",
+    "NameRussian": "Дистанционный пульт",
     "NameEnglish": "RF Transmitter",
     "ItemId": 596469572,
     "ItemCategory": "Tool",
@@ -22617,6 +22704,27 @@
       "ItemModEntity",
       "ItemMod",
       "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "shears",
+    "NameRussian": "Shears",
+    "NameEnglish": "Shears",
+    "ItemId": -1953695556,
+    "ItemCategory": "Tool",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModProjectile",
+      "ItemModShearTool"
     ]
   },
   {
@@ -25954,6 +26062,26 @@
       "ItemModEntity",
       "ItemMod",
       "ItemBlueprint"
+    ]
+  },
+  {
+    "ShortName": "smg.uzi",
+    "NameRussian": "Uzi",
+    "NameEnglish": "Uzi",
+    "ItemId": 2125127001,
+    "ItemCategory": "Weapon",
+    "Components": [
+      "UnityEngine.Transform",
+      "UnityEngine.Component",
+      "UnityEngine.Object",
+      "System.Object",
+      "ItemDefinition",
+      "UnityEngine.MonoBehaviour",
+      "UnityEngine.Behaviour",
+      "ItemModEntity",
+      "ItemMod",
+      "ItemBlueprint",
+      "ItemModContainer"
     ]
   },
   {
